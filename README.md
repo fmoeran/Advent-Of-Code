@@ -62,9 +62,9 @@ Day       Time   Rank  Score       Time   Rank  Score
 Running ```2023/timer.py``` will create a ```times.txt``` file for the run times of each of the 2023 files.
 Here are the run times on my machine:
 ```
-day 1: 0m0.046s
-day 2: 0m0.016s
-day 3: 0m0.041s
-day 4: 0m0.014s
-day 5: 0m0.015s
+day 1: 0.0352s
+day 2: 0.0023s
+day 3: 0.0445s
+day 4: 0.0035s
+day 5: 0.0083s
 ```
