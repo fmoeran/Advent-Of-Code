@@ -3,9 +3,15 @@
 This is collection of most of the AOC problems I've done so far. 
 I don't make my priority to have pretty code in AOC so sorry for the mess.
 
-These are my times so far:
+Also, yes most of this code only solves the part 2 for each day, 
+I do most of them for speed so I just edit my part 1 solutions to get part 2 and I cba remake them later just for my github
 
-## 2023
+
+
+## Positions
+These are my ranks for each day so far:
+
+### 2023
 
 ```
       -------Part 1--------   --------Part 2--------
@@ -19,7 +25,7 @@ Day       Time  Rank  Score       Time   Rank  Score
 ```
 
 
-## 2022
+### 2022
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
@@ -48,4 +54,17 @@ Day       Time   Rank  Score       Time   Rank  Score
   3   00:07:39   1610      0   00:12:01   1334      0
   2   00:07:03   1236      0   00:12:00   1377      0
   1   00:02:45    933      0   00:05:20   1471      0
+```
+
+
+## Times
+
+Running ```2023/timer.py``` will create a ```times.txt``` file for the run times of each of the 2023 files.
+Here are the run times on my machine:
+```
+day 1: 0m0.046s
+day 2: 0m0.016s
+day 3: 0m0.041s
+day 4: 0m0.014s
+day 5: 0m0.015s
 ```
