@@ -3,7 +3,7 @@ This file times every python file I have in the directory
 """
 
 
-import subprocess
+
 from time import perf_counter
 
 num_days = 5
