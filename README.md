@@ -16,8 +16,8 @@ These are my ranks for each day so far:
 ```
       -------Part 1--------   --------Part 2--------
 Day       Time  Rank  Score       Time   Rank  Score
-
-  5   00:22:43  1772      0   06:46:04  13569      0  (went back to sleep before doing part 2)
+  6   00:05:07   531      0   00:10:05   1167      0
+  5   00:22:43  1772      0   06:46:04  13569      0 (went back to sleep before doing part2)
   4   00:05:15   820      0   00:08:45    215      0
   3   00:11:31   415      0   00:20:48    572      0
   2   00:10:07  1294      0   00:12:25    968      0
@@ -62,9 +62,10 @@ Day       Time   Rank  Score       Time   Rank  Score
 Running ```2023/timer.py``` will create a ```times.txt``` file for the run times of each of the 2023 files.
 Here are the run times on my machine:
 ```
-day 1: 0m0.046s
-day 2: 0m0.016s
-day 3: 0m0.041s
-day 4: 0m0.014s
+day 1: 0m0.050s
+day 2: 0m0.014s
+day 3: 0m0.035s
+day 4: 0m0.013s
 day 5: 0m0.015s
+day 6: 0m0.011s
 ```

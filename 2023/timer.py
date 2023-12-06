@@ -5,7 +5,7 @@ This file times every python file I have in the directory
 
 import subprocess
 
-num_days = 5
+num_days = 6
 
 with open("times.txt", "w") as file:
 
