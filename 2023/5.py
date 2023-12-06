@@ -42,4 +42,4 @@ for line in arr[1:]:
         ranges = update_ranges
 
 ranges.extend(new_ranges)
-print(min(ranges, key=lambda x: x[0]))
+print(min(ranges, key=lambda x: x[0])[0])
