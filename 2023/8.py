@@ -1,3 +1,7 @@
+# Yeah fuck this question.
+# I spent the whole day trying to think of a nice general solution until I realised that they looped back perfectly to the beginning
+# How fun...
+
 with open("8.txt", "r") as file:
     direction = file.readline().strip()
     graph = {}
@@ -6,88 +10,37 @@ with open("8.txt", "r") as file:
         graph[a] = (b, c)
 
 
-"""
-node = "AAA"
-step = 0
-while node != "ZZZ":
-    d = direction[step%len(direction)]
-    if d == "L":
-        node = graph[node][0]
-    else:
-        node = graph[node][1]
-    step += 1
-"""
-
 nodes = []
 for node in graph.keys():
     if node[-1] == "A":
         nodes.append(node)
-"""
-finished = False
-
-while not finished:
-    print(nodes)
-    d = direction[step%len(direction)]
-    step += 1
-    ind = 0 if d == "L" else 1
-    finished = True
-    for i in range(len(nodes)):
-        nodes[i] = graph[nodes[i]][ind]
-        if nodes[i][-1] != "Z":
-            finished = False
-"""
 
 def get_dir(i):
     return 0 if direction[steps[i]%len(direction)] == "L" else 1
 
-def get_key(i):
-    return nodes[i], steps[i]%len(direction)
+print(nodes)
+
+
+def get_steps(start):
+    node = start
+    steps = 0
+    while node[-1] != "Z":
+        d = 0 if direction[steps%len(direction)] == "L" else 1
+        node = graph[node][d]
+        steps += 1
+    d = 0 if direction[steps % len(direction)] == "L" else 1
+    node = graph[node][d]
+    print(node == start)
+    return steps
+
 
 steps = [0]*len(nodes)
-cycles = [0]*len(nodes)
-ends = [[] for _ in range(len(nodes))]
-starts = [0]*len(nodes)
-for i in range(len(nodes)):
-
-    seen = {}
-    searching = True
-    while seen.get(get_key(i)) is None:
-        d = get_dir(i)
-        seen[get_key(i)] = steps[i]
-        steps[i] += 1
-        nodes[i] = graph[nodes[i]][d]
-        if nodes[i][-1] == "Z":
-            ends[i].append(steps[i])
 
 
-    cycles[i] = steps[i] - seen[(nodes[i], get_dir(i))]
-    starts[i] = seen[(nodes[i], get_dir(i))]
+from math import lcm
 
+m = 1
+for node in nodes:
+    m = lcm(m, get_steps(node))
 
-big_step = 1
-total_steps = 0
-
-class Loop:
-    def __init__(self, start, end, length):
-        self.start = start
-        self.end = end
-        self.length = length
-
-    def __lt__(self, other):
-        return self.length < other.length
-    def __repr__(self):
-        return str(self.length)
-from math import lcm, gcd
-
-loops = sorted([Loop(start, end[-1], length) for start, end, length in zip(starts, ends, cycles)])
-for loop in loops:
-    print(loop.start, loop.end, loop.length)
-for loop in loops:
-    while total_steps < loop.start or (total_steps-loop.start)%loop.length != (loop.end-loop.start)%loop.length:
-        total_steps += big_step
-    big_step = lcm(big_step, loop.length)
-
-print(total_steps)
-
-
-
+print(m)
