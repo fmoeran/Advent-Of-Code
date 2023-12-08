@@ -18,7 +18,6 @@ for node in graph.keys():
 def get_dir(i):
     return 0 if direction[steps[i]%len(direction)] == "L" else 1
 
-print(nodes)
 
 
 def get_steps(start):
@@ -30,7 +29,6 @@ def get_steps(start):
         steps += 1
     d = 0 if direction[steps % len(direction)] == "L" else 1
     node = graph[node][d]
-    print(node == start)
     return steps
 
 

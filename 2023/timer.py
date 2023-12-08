@@ -6,7 +6,7 @@ This file times every python file I have in the directory
 
 from time import perf_counter
 
-num_days = 6
+num_days = 8
 
 with open("times.txt", "w") as file:
 
@@ -14,6 +14,7 @@ with open("times.txt", "w") as file:
         t0 = perf_counter()
         exec(open(str(day) + ".py").read())
         t = perf_counter()
-        time = round(t - t0, 4)
-        file.write("day " + str(day) + ": ")
+        time = round(t - t0)
+        #file.write("day " + str(day) + ": ")
         file.write(str(time) +"s\n")
+
