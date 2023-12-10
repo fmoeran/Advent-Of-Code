@@ -9,19 +9,25 @@ I do most of them for speed so I just edit my part 1 solutions to get part 2 and
 
 
 ## Positions
-These are my ranks for each day so far:
+These are my ranks for each day so far.
+
+They tend to vary quite a bit because I change whether I get up at 5am each day.
 
 ### 2023
 
 ```
-      -------Part 1--------   --------Part 2--------
-Day       Time  Rank  Score       Time   Rank  Score
-  6   00:05:07   531      0   00:10:05   1167      0
-  5   00:22:43  1772      0   06:46:04  13569      0 (went back to sleep before doing part2)
-  4   00:05:15   820      0   00:08:45    215      0
-  3   00:11:31   415      0   00:20:48    572      0
-  2   00:10:07  1294      0   00:12:25    968      0
-  1   00:02:21   347      0   00:10:41    420      0
+      --------Part 1--------   --------Part 2--------
+Day       Time   Rank  Score       Time   Rank  Score
+ 10   00:22:19    711      0   01:09:10    921      0
+  9   06:11:32  25285      0   06:14:08  24195      0
+  8   00:10:40   2553      0   18:47:47  42315      0
+  7   00:29:24   2386      0   02:29:08  10005      0
+  6   00:05:07    531      0   00:10:05   1167      0
+  5   00:22:43   1772      0   06:46:04  13569      0
+  4   00:05:15    820      0   00:08:45    215      0
+  3   00:11:31    415      0   00:20:48    572      0
+  2   00:10:07   1294      0   00:12:25    968      0
+  1   00:02:21    347      0   00:10:41    420      0
 ```
 
 
@@ -62,10 +68,14 @@ Day       Time   Rank  Score       Time   Rank  Score
 Running ```2023/timer.py``` will create a ```times.txt``` file for the run times of each of the 2023 files.
 Here are the run times on my machine:
 ```
-day 1: 0m0.050s
-day 2: 0m0.014s
-day 3: 0m0.035s
-day 4: 0m0.013s
-day 5: 0m0.015s
-day 6: 0m0.011s
+day 1: 0.04s
+day 2: 0.002s
+day 3: 0.042s
+day 4: 0.003s
+day 5: 0.008s
+day 6: 0.002s
+day 7: 0.008s
+day 8: 0.037s
+day 9: 0.006s
+day 10: 0.131s
 ```

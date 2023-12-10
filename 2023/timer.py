@@ -6,15 +6,15 @@ This file times every python file I have in the directory
 
 from time import perf_counter
 
-num_days = 8
+num_days = 10
 
-with open("times.txt", "w") as file:
+with open("times.txt", "w") as times_file:
 
     for day in range(1, num_days+1):
         t0 = perf_counter()
         exec(open(str(day) + ".py").read())
-        t = perf_counter()
-        time = round(t - t0)
-        #file.write("day " + str(day) + ": ")
-        file.write(str(time) +"s\n")
+        t1 = perf_counter()
+        time_taken = round(t1 - t0, 3)
+        times_file.write("day " + str(day) + ": ")
+        times_file.write(str(time_taken) +"s\n")
 

@@ -22,9 +22,9 @@ dist = int("".join([str(d)for d in dists]))
 
 import math
 
-t0= math.ceil((time-(time*time-4*dist)**0.5)/2)
-t1= math.floor((time+(time*time-4*dist)**0.5)/2)
+t_0= math.ceil((time-(time*time-4*dist)**0.5)/2)
+t_1= math.floor((time+(time*time-4*dist)**0.5)/2)
 
-print(t1 -t0 + 1)
+print(t_1 -t_0 + 1)
 
 
