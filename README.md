@@ -18,6 +18,9 @@ They tend to vary quite a bit because I change whether I get up at 5am each day.
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 13   00:09:26    124      0   00:13:01     77     24
+ 12   01:12:16   4914      0   01:18:18   1441      0
+ 11   00:21:26   2356      0   00:22:00   1190      0
  10   00:22:19    711      0   01:09:10    921      0
   9   06:11:32  25285      0   06:14:08  24195      0
   8   00:10:40   2553      0   18:47:47  42315      0
@@ -70,12 +73,15 @@ Here are the run times on my machine:
 ```
 day 1: 0.04s
 day 2: 0.002s
-day 3: 0.042s
+day 3: 0.041s
 day 4: 0.003s
-day 5: 0.008s
-day 6: 0.002s
-day 7: 0.008s
-day 8: 0.037s
+day 5: 0.006s
+day 6: 0.001s
+day 7: 0.006s
+day 8: 0.032s
 day 9: 0.006s
-day 10: 0.131s
+day 10: 0.139s
+day 11: 1.403s
+day 12: 0.558s
+day 13: 0.011s
 ```
