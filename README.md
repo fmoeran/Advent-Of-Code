@@ -1,7 +1,7 @@
 # Advent-Of-Code
 
 This is collection of most of the AOC problems I've done so far. 
-I don't make my priority to have pretty code in AOC so sorry for the mess.
+I don't make it my priority to have pretty code in AOC so sorry for the mess.
 
 Also, yes most of this code only solves the part 2 for each day, 
 I do most of them for speed so I just edit my part 1 solutions to get part 2 and I cba remake them later just for my github
