@@ -88,7 +88,6 @@ def tilt():
 
         loop = t - res
         remaining = (4000000000 - t)%loop
-        print("hi", t)
         for j in range(remaining%loop):
             arr = tilts[(t+j) % 4]()
         t = 4000000000
