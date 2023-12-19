@@ -75,9 +75,3 @@ for i in range(1, len(walls)):
 
 
 print(total)
-
-
-
-
-
-
