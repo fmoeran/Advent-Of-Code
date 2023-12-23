@@ -1,6 +1,6 @@
 # First properly NP-hard problem!
 # The previous NPHs were special cases that made them P
-# But so far I can't see anyone on reddit who doesn't think this one rlly is NPH
+# But so far I can't see anyone on reddit who doesn't think this one rly is NPH
 # The only trick was to contract the graph a bit
 
 
@@ -15,43 +15,11 @@ with open("23.txt", "r") as f:
 
 def get_difs(node):
     return [(-1, 0), (0, 1), (1, 0), (0, -1)]
-    if arr[node[0]][node[1]] == "^":
-        return [(-1, 0)]
-    elif arr[node[0]][node[1]] == ">":
-        return [(0, 1)]
-    elif arr[node[0]][node[1]] == "v":
-        return [(1, 0)]
-    elif arr[node[0]][node[1]] == "<":
-        return [(0, -1)]
-    else:
-        return [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
 
 def in_bounds(node):
     return 0 <= node[0] < len(arr) and 0 <= node[1] < len(arr[0])
 
-
-def search(node, end, seen):
-    # bfs
-    if node == end:
-        return 0
-    out = 0
-    mxpos = node
-    for d in get_difs(node):
-        nd = (node[0] + d[0], node[1] + d[1])
-        if in_bounds(nd) and nd not in seen and arr[nd[0]][nd[1]] != '#':
-            seen.add(nd)
-            res = search(nd, end, seen) + 1
-            if res > out:
-                out = res
-                mxpos = res
-
-            seen.remove(nd)
-
-    if mxpos == node:
-        return -100000
-
-    return out
 
 
 def is_junction(node):
