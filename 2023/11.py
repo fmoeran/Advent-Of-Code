@@ -4,6 +4,8 @@ with open("11.txt", "r") as f:
 
     arr = [line.strip() for line in f]
 
+expansion = 1000000
+
 row_weights = [1]*len(arr)
 col_weights = [1]*len(arr[0])
 gals = []
@@ -11,18 +13,22 @@ n = 0
 for r, row in enumerate(arr):
     n += row.count("#")
     if "#" not in row:
-        row_weights[r] = 1000000
+        row_weights[r] = expansion
 for c in range(len(arr)):
     col = [row[c] for row in arr]
     n += col.count("#")
     if "#" not in col:
-        col_weights[c] = 1000000
+        col_weights[c] = expansion
+
+
 
 
 for r in range(len(arr)):
     for c in range(len(arr[0])):
         if arr[r][c] == "#":
             gals.append((r, c))
+
+
 
 total = 0
 for i in range(len(gals)):
@@ -38,7 +44,7 @@ for i in range(len(gals)):
             dist += 1
         if cstart <= cend:
             dist += 1
+
         total += dist
 print(total)
-
 
