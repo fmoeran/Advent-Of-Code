@@ -105,3 +105,8 @@ day 21: 1.206s
 day 22: 0.08s
 day 23: 24.106s
 ```
+
+## Optimisations
+
+I also like to add optimisations sometimes to problems and might put them in <year>/optimisations/<day>.
+They usually have things like vectorisation, bitmasks, parallelization, etc.
