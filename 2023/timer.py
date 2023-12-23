@@ -4,7 +4,7 @@ This file times every python file I have in the directory
 
 from time import perf_counter
 
-num_days = 22
+num_days = 23
 
 with open("times.txt", "w") as times_file:
 

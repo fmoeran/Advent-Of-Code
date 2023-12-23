@@ -18,6 +18,7 @@ They tend to vary quite a bit because I change whether I get up at 5am each day.
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 23   00:14:55    356      0   01:10:42    614      0
  22   00:48:02    961      0   00:56:21    703      0
  21   00:05:52    216      0   13:33:16   5603      0
  20   00:43:07    681      0   04:45:39   3397      0
@@ -80,26 +81,27 @@ Day       Time   Rank  Score       Time   Rank  Score
 Running ```2023/timer.py``` will create a ```times.txt``` file for the run times of each of the 2023 files.
 Here are the run times on my machine:
 ```
-day 1: 0.039s
+day 1: 0.044s
 day 2: 0.003s
-day 3: 0.04s
-day 4: 0.006s
-day 5: 0.01s
-day 6: 0.003s
-day 7: 0.015s
-day 8: 0.047s
-day 9: 0.008s
-day 10: 0.138s
-day 11: 1.563s
-day 12: 0.697s
-day 13: 0.015s
-day 14: 2.099s
-day 15: 0.009s
-day 16: 4.089s
-day 17: 3.8s
+day 3: 0.054s
+day 4: 0.005s
+day 5: 0.008s
+day 6: 0.002s
+day 7: 0.008s
+day 8: 0.036s
+day 9: 0.007s
+day 10: 0.182s
+day 11: 1.88s
+day 12: 0.863s
+day 13: 0.014s
+day 14: 2.246s
+day 15: 0.011s
+day 16: 5.288s
+day 17: 4.299s
 day 18: 0.01s
-day 19: 0.011s
-day 20: 0.362s
-day 21: 1.025s
-day 22: 0.056s
+day 19: 0.01s
+day 20: 0.42s
+day 21: 1.206s
+day 22: 0.08s
+day 23: 24.106s
 ```
