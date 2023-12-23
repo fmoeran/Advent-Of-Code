@@ -3,4 +3,5 @@
 *.idea
 *.exe
 tempCodeRunnerFile.*
-*/optimisations
+*cmake-build-*
+*.DS_Store
