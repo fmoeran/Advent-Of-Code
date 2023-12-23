@@ -5,3 +5,5 @@
 tempCodeRunnerFile.*
 *cmake-build-*
 *.DS_Store
+
+!*CMakeLists.txt
