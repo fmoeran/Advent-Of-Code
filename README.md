@@ -13,6 +13,15 @@ These are my ranks for each day so far.
 
 They tend to vary quite a bit because I change whether I get up at 5am each day.
 
+### 2024
+
+```
+      -------Part 1--------   -------Part 2--------
+Day       Time  Rank  Score       Time  Rank  Score
+  1   00:02:53   716      0   00:03:52   399      0
+```
+
+
 ### 2023
 
 ```
