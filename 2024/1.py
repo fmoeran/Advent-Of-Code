@@ -1,3 +1,5 @@
+# no joke lost half my time because the vim clipboard wasn't synced to my windows one so I could copy and paste lmao
+
 with open("1.txt", "r") as file:
     lines = [list(map(int, line.strip().split())) for line in file]
     l1 = [line[0] for line in lines]
