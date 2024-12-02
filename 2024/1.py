@@ -13,3 +13,8 @@ for val in l1:
     s += l2.count(val)*val
 
 print(s)
+
+# with open("1.txt", "r") as file:
+#     liens = [map(int, line.strip().split()) for line in file]
+#     l1, l2 = [line[0] for line in lines], [line[1] for line in lines]
+#     print(sum(map(lambda x: l2.count(x)*x, l1)))
