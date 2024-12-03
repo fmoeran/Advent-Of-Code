@@ -1,5 +1,6 @@
 # nice and easy today
 # annoying I didn't realise the input was MULTIPLE LINES so I was stuck only doing the first line for a good few minutes
+# also fuck off I don't know regex this is so ugly
 
 with open("3.txt", "r") as file:
     s = "\n".join([line for line in file])
