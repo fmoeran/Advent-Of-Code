@@ -18,6 +18,7 @@ They tend to vary quite a bit because I change whether I get up at 5am each day.
 ```
       -------Part 1--------   -------Part 2--------
 Day       Time  Rank  Score       Time  Rank  Score
+ 12   00:09:13   640      0   01:25:45  3021      0
  11   00:05:01   590      0   00:20:31  1401      0
  10   00:07:02   562      0   00:07:40   318      0
   9   00:13:21   860      0   00:28:31   554      0

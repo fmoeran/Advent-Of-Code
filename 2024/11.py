@@ -15,9 +15,7 @@ for num in nums:
 def blink():
     global stones
     new_stones = defaultdict(int)
-    m = 0
     for stone, count in stones.items():
-        m = max(m, stone)
         s = str(stone)
         if stone == 0:
             new_stones[1] += count
