@@ -4,20 +4,18 @@ This is collection of most of the AOC problems I've done so far.
 I don't make it my priority to have pretty code in AOC so sorry for the mess.
 
 Also, yes most of this code only solves the part 2 for each day, 
-I do most of them for speed so I just edit my part 1 solutions to get part 2 and I cba remake them later just for my github
-
+I do most of them for speed, so I just edit my part 1 solutions to get part 2 and I cba remake them later just for my github
 
 
 ## Positions
 These are my ranks for each day so far.
-
-They tend to vary quite a bit because I change whether I get up at 5am each day.
 
 ### 2024
 
 ```
       -------Part 1--------   -------Part 2--------
 Day       Time  Rank  Score       Time  Rank  Score
+ 16   00:13:39   747      0   00:28:33   628      0
  15   00:18:21   754      0   00:49:42   718      0
  14   00:12:33   926      0   00:28:47   636      0
  13   00:26:38  2876      0   00:30:29  1077      0
