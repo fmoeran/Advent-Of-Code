@@ -82,6 +82,7 @@ def get_res(reg_A, reg_B, reg_C):
 
 possible = set()
 
+
 def dfs(current_A, inst=len(instructions) - 1):
     if inst < 0:
         return
@@ -94,6 +95,7 @@ def dfs(current_A, inst=len(instructions) - 1):
             final = dfs(new_A, inst - 1)
             if final is not None:
                 return final
+
 
 a = dfs(0)
 print(dfs(0))
