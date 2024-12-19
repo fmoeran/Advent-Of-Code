@@ -22,6 +22,6 @@ def dfs(towel, ind=0):
 
 
 total = 0
-for towel in to_make[-2::-1]:
+for towel in to_make:
     total += dfs(towel)
 print(total)
