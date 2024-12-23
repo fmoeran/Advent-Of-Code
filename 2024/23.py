@@ -1,6 +1,7 @@
 # and yet again, dp is way too op. Decently easy day, but refreshing to have a graph theory question
 # that wasn't on a 2D fucking grid oh my god.
-# I was actually really quick on this one. Though looking at the leaderboard I still wouldn't have got top 100 sadly
+# I was actually really quick on this one. Though looking at the leaderboard I still wouldn't have got top 100 sadly.
+# Finding max cliques is quite a common question so ofc AI is good at it.
 from collections import defaultdict
 graph = defaultdict(list)
 with open("23.txt", "r") as file:
