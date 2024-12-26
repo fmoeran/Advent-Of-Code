@@ -29,14 +29,15 @@ def display():
     print()
 
 
-for round in range(10_000):
+for r in range(10_000):
     for i in range(len(robots)):
         p, v = robots[i]
         robots[i] = ([(p[0] + v[0]) % mx, (p[1] + v[1]) % my], v)
     # if round % 103 == 178 % 103 or round % 101 == 104 % 101:
-    if round % 103 == 178 % 103 and round % 101 == 104 % 101:
-        print(round + 1)
+    if r % 103 == 178 % 103 and r % 101 == 104 % 101:
+        print(r + 1)
         display()
+        break
 
 # part A
 

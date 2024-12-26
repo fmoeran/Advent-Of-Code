@@ -37,7 +37,6 @@ t0 = perf_counter()
 
 total = 0
 for l, line in enumerate(lines):
-    print(l)
     a = int(line[0])
     b = list(map(int, line[1].split()))
     if dfs(a, b):
@@ -46,7 +45,6 @@ for l, line in enumerate(lines):
 
 
 print(total)
-print(perf_counter() - t0)
 
 # 10.3 seconds
 # 8.2 seconds
